@@ -1,0 +1,25 @@
+# --- Vision / Deep Learning ---
+ultralytics>=8.3.0        # RT-DETR-L / YOLO
+torch>=2.2.0
+torchvision>=0.17.0
+
+# --- Procesamiento de imagenes medicas ---
+opencv-python>=4.9.0
+pydicom>=2.4.0
+numpy>=1.26.0
+Pillow>=10.0.0
+scikit-image>=0.22.0
+
+# --- Base de datos ---
+# sqlite3 viene incluido en la libreria estandar de Python
+
+# --- Chatbot local (Ollama) ---
+ollama>=0.2.0
+requests>=2.31.0
+
+# --- Descarga de pesos (Hugging Face Hub) ---
+huggingface_hub>=0.23.0
+
+# --- Utilidades ---
+pandas>=2.2.0
+tqdm>=4.66.0

@@ -1,0 +1,54 @@
+# --- Python ---
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+build/
+dist/
+
+# --- Modelos y pesos (pesados, no van al repo) ---
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.engine
+!models/.gitkeep
+
+# --- Datasets (pesados, no van al repo) ---
+data/raw/*
+!data/raw/.gitkeep
+data/annotations/*.csv
+!data/annotations/.gitkeep
+*.dcm
+
+# --- SQLite / bases de datos locales ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Ollama / modelos locales ---
+*.gguf
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs y temporales ---
+*.log
+tmp/
+temp/
+
+# --- Ejecutables generados (PyInstaller, etc.) ---
+*.exe
+*.spec
+build/
+output/
