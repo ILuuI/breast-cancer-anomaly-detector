@@ -192,7 +192,7 @@ Estudio de ablación en dos fases (arquitectura y aumentación de datos), entren
 
 ## Autores
 
-- Mauro — Universidad de Sucre
+- Mauro y Sara — Universidad de Sucre
 
 ## Colaboración institucional
 
